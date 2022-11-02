@@ -1,0 +1,198 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Jesse McGill</h1>
+      <p>Workforce Analyst @ Abbott</p>
+      <figure id="img-div">
+        <img
+          id="image"
+          src="https://media.licdn.com/dms/image/C4E03AQEZ-FIcAN3Wiw/profile-displayphoto-shrink_800_800/0/1638941363069?e=1672876800&v=beta&t=nb-zh2O3AX-hjtx4xZzr1S-yZXj-fhNRVN_Gj6Ck8hU"
+          alt="Jesse McGill selfie in Livermore, California."
+        />
+        <figcaption id="img-caption">
+          Jesse McGill of Tracy, California, enjoying a day in downtown Livermore.
+        </figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">A brief work history of Jesse McGill: </h3>
+        <ul>
+          <h3> Work Experience </h3>
+          <li><strong>Abbott: March 2011 - Present:</strong></li>
+          <ul> 
+            <li><strong>Operation Worforce Analyst:  March 2020 - Present </strong> </li>
+          <ul> 
+            <li> Creating/Managing Dashboards and Reports through a Salesforce environment for multiple departments </li>
+            <li> Reviewing and analyzing relevant data to identify problem areas</li>
+            <li> Assist in writing Processes for new hires </li>
+            <li> Conducted user acceptance testing to ensure that developed systems satisfied the needs of business clients as specified in the functional requirements</li>
+            <li> Work with leadership in creating user test and performing test based on SDLC using JIRA</li>
+            <li> Communicate frequently with clients regarding applications functionality requirements</li>
+            <li> Collect staff performance data</li>
+            <li> Recommended finely tuned changes to meet all guidelines </li>
+            <li> Use strong time management skills to juggle multiple projects simultaneously </li>
+            <li> Preparing Workforce analysis reports for upper management  </li>
+            <li> Developing staff schedules </li>
+            <li> Staff new hire training and/or new process training for existing staff </li>
+            <li><em><strong>Skills:</strong></em> Problem Solving • Jira • User Acceptance Testing • Business Process Improvement • Visio • Excel • Analytical Skills • Team Building • Customer Service • Lean Six Sigma • Salesforce • Production Process Improvement </li>            
+            </ul>
+            </ul>
+            </ul>
+
+          <ul>
+            <ul>
+            <li><strong>Testing Serves Training and Quality Coordinator:  March 2019 - March 2020 </strong> </li>
+          <ul> 
+            <li> Train new hires in processes needed to speak with patients on the phone. Which can include logistics, claims, benefits, and company policies </li>
+            <li> Develop/Update existing work instructions needed for Testing Services </li>
+            <li> Create training material needed for new hires </li>
+            <li> Assist with management pulling data needed for employee QA scores   </li>
+            <li> Assist with management on providing feedback with employee phone calls </li>
+            <li> Work with other departments in developing QA guidelines to improve customer satisfaction </li>
+            <li><em><strong>Skills:</strong></em> Problem Solving · Jira · User Acceptance Testing · Business Process Improvement · Analytical Skills · Team Building · Customer Service · Lean Six Sigma · Customer Relationship Management (CRM) · Salesforce · Production Process Development</li>          
+            </ul>
+            </ul>
+            </ul>
+             
+        <blockquote
+          cite="https://www.linkedin.com/in/jesse-mcgill/"
+        >
+          <p>
+            <br>
+            "I was born and raised in Fremont, California. I am very much into learning about new cultures, traveling, and trying new restaurants to find that new drink or dish I will fall in love with. I do like to cook at home trying new recipes or cooking something just to try a new technique. I am also into a variety of music, you may catch me from time to time with ear buds listening to anything from Retro wave to Hard Rock. I have not traveled to many countries; however, Ireland has been my favorite spot so far.</br>
+ 
+<br>Currently, I am helping our Operations Division finding ways to improve process and/or cost efficiency through data aggregation.</br>
+
+<br>I love my job! I get to work with people who help patients get the home care they need to stay healthy. With that, I get to learn all aspects of the company, from IT to Customer Service.</br> 
+
+<br>I consider myself a self-starter who is not afraid to learn something new. In fact I am always learning something new and you can regularly find me taking a course through LinkedIn Learning or Trailhead. I am currently working on my Salesforce Administration Certification while learning SQL."</br>
+          </p>
+          <cite>-- About section on my LinkedIn Profile</cite>
+        </blockquote>
+        <h3>
+          If you have time, you can review more about me and my work history by visiting my 
+          <a
+            id="tribute-link"
+            href="https://www.linkedin.com/in/jesse-mcgill/"
+            target="_blank"
+            >LinkedIn Profile</a
+          >.
+        </h3>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 60%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 5px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 5px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+** end of undefined **
+
